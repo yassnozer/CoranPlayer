@@ -39,8 +39,8 @@ this.play_File.addEventListener("click",
     this.play_pause(this.isplayed)
     }
 )
-this.names_radio=["عمر النبراوي – سورة المؤمنون","ماهر المعيقلي – سورة الحج","محمد البراك – سورة ص","عبدالرحمن الماجد - البقرة","إسلام صبحي - الكهف","العيون الكوشي - النساء","إسلام صبحي - الرحمان"]
-this.source_audio=["http://download.tvquran.com/download/tilawa_07/tvQuran.com__257.mp3","http://download.tvquran.com/download/tilawa_07/tvQuran.com__256.mp3","http://download.tvquran.com/download/tilawa_07/tvQuran.com__255.mp3","https://server10.mp3quran.net/a_majed/002.mp3","https://server14.mp3quran.net/islam/Rewayat-Hafs-A-n-Assem/018.mp3","https://server11.mp3quran.net/koshi/004.mp3","https://server14.mp3quran.net/islam/Rewayat-Hafs-A-n-Assem/055.mp3"]
+this.names_radio=["عبدالرحمن الماجد - البقرة","إسلام صبحي - الكهف","العيون الكوشي - النساء","إسلام صبحي - الرحمان"]
+this.source_audio=["https://server10.mp3quran.net/a_majed/002.mp3","https://server14.mp3quran.net/islam/Rewayat-Hafs-A-n-Assem/018.mp3","https://server11.mp3quran.net/koshi/004.mp3","https://server14.mp3quran.net/islam/Rewayat-Hafs-A-n-Assem/055.mp3"]
 
 this.set_ressources(this.server)
  

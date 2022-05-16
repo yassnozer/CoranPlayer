@@ -18,7 +18,14 @@ this.speed_range.addEventListener('change',
 }
 )
 
+this.speed5=document.getElementById('speed0.5')
+this.speed5.addEventListener('click',()=>{ this.audioFile.playbackRate=0.5;this.speed_range.value =0.5*100})
 
+this.speed1=document.getElementById('speed1')
+this.speed1.addEventListener('click',()=>{ this.audioFile.playbackRate=1;this.speed_range.value =1*100})
+
+this.speed2=document.getElementById('speed2')
+this.speed2.addEventListener('click',()=>{ this.audioFile.playbackRate=2;this.speed_range.value =2*100})
     }
 
 

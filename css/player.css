@@ -74,3 +74,10 @@ font-size: 1;}
     border-radius: 25px;
     border: 2px solid rgba(25, 10, 231, 0.021);
 }
+#buttonspeed{
+    text-align:center;
+}
+#buttonspeed button{
+    border-radius: 25px;
+    border: 2px solid rgba(25, 10, 231, 0.021);
+}
