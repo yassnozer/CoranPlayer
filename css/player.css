@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic&family=Roboto+Flex:opsz,wght@8..144,300&display=swap');
+*{
+    margin: 0;
+    /* padding: 0; */
+    font-family:  'Noto Sans Arabic', sans-serif;}
+    body{
+        background-color:#40739e
+    }
+main{
+    width: 360px;
+    background-color:#487eb0;
+    position:absolute;
+    left:50%;
+    transform:translateX(-50%)
+}
+header{
+    margin-top:10px;
+    text-align:center;
+    color:#dcdde1;
+    height: 299px;
+}
+header img{
+    height:140px;
+    width:140px;
+}
+header h2{
+    margin: 20px 0px;
+    font-family: 'Noto Sans Arabic', sans-serif;color: #fff;
+}
+header p{
+    font-size:22px;
+    font-family: 'Noto Sans Arabic', sans-serif;
+color: #fff;}
+#content{
+    background-color:rgba(255, 255, 255, 0.911)
+}
+#buttons{
+    display: flex;
+    justify-content:center;
+    padding:20px
+}
+#developer{
+    display: flex;
+    justify-content:center;
+    padding:20px;
+    color: #718093;
+}
+#developer img{
+    width:50%;
+    height: 70px;
+}
+#buttons img{
+    height:45px;
+    width: 45px;
+margin:0 15px;
+}
+#volume{
+    text-align:center;
+}
+#volume input{
+    width:90%;
+}
+#volume h2{
+    margin:5px 0;
+    font-family: 'Noto Sans Arabic', sans-serif;
+font-size: 1;}
+#colors{
+    text-align:center;
+    margin-top:25px;
+}
+#colors button{
+    width:25px;
+    height:25px;
+    border-radius: 25px;
+    border: 2px solid rgba(25, 10, 231, 0.021);
+}
